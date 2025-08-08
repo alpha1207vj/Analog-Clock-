@@ -5,7 +5,8 @@ It displays the current time with hour, minute, and second hands that update eve
 
 ## Screenshot
 
-[Analog Clock Screenshot](Screenshot 2025-08-08 162955.png)
+[Analog Clock Screenshot](Analog-Clock-%2FScreenshot%202025-08-08%20162955.png)
+
 
 ## Live Demo
 
