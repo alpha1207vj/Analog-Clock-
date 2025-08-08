@@ -1,0 +1,983 @@
+html
+{
+    height: 100%;
+}
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    background-color: red;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container span
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.container span:nth-child(1)
+{
+    transform:  rotate(0deg) translateY(-150px) rotate(0deg);
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+.container span:nth-child(2)
+{
+    transform:  rotate(30deg)  translateY(-150px) rotate(-30deg);
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+.container span:nth-child(3)
+{
+    transform:  rotate(60deg)  translateY(-150px) rotate(-60deg);
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif ;
+}
+.container span:nth-child(4)
+{
+    transform:  rotate(90deg)  translateY(-150px) rotate(-90deg);
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif ;
+}
+.container span:nth-child(5)
+{
+    transform:  rotate(120deg)  translateY(-150px) rotate(-120deg);
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif ;
+}
+.container span:nth-child(6)
+{
+    transform:  rotate(150deg)  translateY(-150px) rotate(-150deg);
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif ;
+}
+.container span:nth-child(7)
+{
+    transform:  rotate(180deg)  translateY(-150px) rotate(-180deg);
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif ;
+}
+.container span:nth-child(8)
+{
+    transform:  rotate(210deg)  translateY(-150px) rotate(-210deg);
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif ;
+}
+.container span:nth-child(9)
+{
+    transform:  rotate(240deg)  translateY(-150px) rotate(-240deg);
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif ;
+}
+.container span:nth-child(10)
+{
+    transform:  rotate(270deg)  translateY(-150px) rotate(-270deg);
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif ;
+}
+.container span:nth-child(11)
+{
+    transform:  rotate(300deg)  translateY(-150px) rotate(-300deg);
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+.container span:nth-child(12)
+{
+    transform:  rotate(330deg)  translateY(-150px) rotate(-330deg);
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+.container .seconds
+{
+    
+    height: 70px;
+    width: 1px;
+    background-color: black;
+    bottom: 50%;
+    left: 50.5%;
+    transform-origin: center bottom;
+}
+.container .minutes
+{
+     
+    height: 50px;
+    width: 4px;
+    background-color: blue;
+    bottom: 50%;
+    left: 50.5%;
+     transform-origin: center bottom;
+}
+.container .hour
+{
+   
+    height: 35px;
+    width: 6px;
+    background-color: pink;
+    bottom: 50%;
+    left: 50.5%;
+     transform-origin: center bottom;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
